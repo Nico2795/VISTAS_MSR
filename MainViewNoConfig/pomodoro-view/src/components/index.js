@@ -1,9 +1,9 @@
-import NavBarComponent from "./NavBar";
-import ThemeSwitchComponent from "./ThemeSwitch";
-import ZenSwitchComponent from "./ZenSwitch";
+import NavBarComponent from "./MainViewComponent/NavBar";
+import ThemeSwitchComponent from "./MainViewComponent/ThemeSwitch";
+import ZenSwitchComponent from "./MainViewComponent/ZenSwitch";
 //import TestComponent from "./Test";
-import MenuComponent from "./Menu";
-import DraggableMenuComponent from "./DraggableMenu";
+import MenuComponent from "./MainViewComponent/Menu";
+import DraggableMenuComponent from "./MainViewComponent/DraggableMenu";
 
 export {NavBarComponent,
         ThemeSwitchComponent, ZenSwitchComponent,
