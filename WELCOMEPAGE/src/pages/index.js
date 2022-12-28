@@ -6,4 +6,5 @@ import TestView from "./MainViewPage/TestView";
 import SettingsContext from "./MainViewPage/SettingsContext";
 import Settings from "./MainViewPage/Settings";
 import Timer from "./MainViewPage/Timer";
-export {HomePage, LoginPage, RegisterPage,MainView, TestView, SettingsContext, Settings, Timer}
+import BlogPage from "./BlogPage/Blog";
+export {HomePage, LoginPage, RegisterPage,MainView, TestView, SettingsContext, Settings, Timer, BlogPage}

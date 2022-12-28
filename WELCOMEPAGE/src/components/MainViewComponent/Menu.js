@@ -32,7 +32,7 @@ const MenuComponent = () => {
                     <button
                         className="btn-menu align-items-center">
                         <i class="fas fa-lightbulb fa-lg"></i>
-                        <h5 style={{ color: 'white' }}>Tips & Consejos</h5>
+                        <h5 style={{ color: 'white' }}><a href="/reddit">Tips & Consejos</a></h5>
                     </button>
                 </li>
 

@@ -76,7 +76,7 @@ function Timer() {
       }
 
       tick(); //Si no es ninguna, es decir si está funcionando restame un segundo al contador
-    }, 100); //cada segundo
+    }, 1000); //cada segundo
 
     return () => clearInterval(interval);
   }, [settingsInfo]); //Me va a funcionar el efecto cada vez que cambie settingsInfo, cada vez que lo modifico que mi inicie el timer
